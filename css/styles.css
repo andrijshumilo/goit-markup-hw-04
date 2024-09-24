@@ -1,0 +1,315 @@
+body {
+font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #fff;
+}
+/* ==================== reset========================= */
+ul,ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3,h4, h5, h6, p {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+
+}
+/* ======== commet ======================= */
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+img {
+    display: block;
+}
+/*============= header===================== */
+.header-page {
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.logo { font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.header-logo .logo-part {
+    color: #2e2f42;
+}
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.nav-link {
+    display: block;
+    padding: 24px 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.nav-link:hover,
+.nav-link:focus,
+.address-link:hover,
+.address-link:focus{
+    color: #404bbf
+}
+.address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+.address {
+    font-style: normal;
+    margin-left: auto;
+}
+.address-link {
+        display: block;
+        padding: 24px 0;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/* ==============/ header======================================= */
+
+/* ================== Hero page =============================== */
+.hero-page{
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+.hero-title{
+        max-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 56px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        line-height: 1.07;
+        text-align: center;
+        color: #ffffff;
+}
+   
+
+
+.button-hero {
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        margin-top: 48px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color: #4d5ae5;
+        color: #ffffff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        
+}
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #404bbf;
+   
+}
+
+
+
+/* ===================/Hero imege ============================ */
+   
+/* =============== advantages ================================== */
+
+.advantages-page {
+    padding: 120px 0;
+}
+.advantages-list {
+    display: flex;
+    gap: 24px;
+}
+.advantages-item {
+width: calc ((100% - 72px) / 4);
+padding: 120px 0;
+}
+.advantages-link {
+margin-bottom: 8px;
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.advantages-link-text { 
+    max-width: 264px;
+        line-height: 1.5;
+        letter-spacing: 0.02em; 
+} 
+/* =====================/advantages=====================  */
+/* ===================== Our Team ============================ */
+.ourteam-page {
+    padding: 120px 0;
+}
+.ourteam-list {
+    display: flex;
+    gap: 24px;
+
+}
+.ourteam-item{
+    border-radius: 0px 0px 4px 4px;
+    padding: 0px 0px 32px 0px;
+
+    margin-bottom: 120px;
+}
+
+.ourteam-img {
+    
+        width: 264px;
+}
+
+.ourteam-item-information {
+    width: 232px;
+    align-items: center;
+    padding: 32px 0;
+}
+.ourteam-text {
+    
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        margin-bottom: 72px;
+    
+}
+.ourteam-link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.ourteam-link-text {
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        
+}
+/* =============== /Our Team ================================== */
+/* ================= Our portfolio ============================ */
+.portfolio-row {
+    background-color: #F4F4FD;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.portfolio-list {
+    display: flex;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #fff;
+
+}
+.portfolio-text {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        text-transform: capitalize;
+        margin-bottom: 72px;
+}
+
+.portfolio-item{
+width: calc ((100% - 48px) / 3);
+}
+.portfolio-text-information {
+    border-bottom: 1px solid #e7e9fc;
+    border-top: none;
+        padding: 32px 16px;
+    
+}
+.portfolio-link{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.12;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        text-align: left;
+        margin-bottom: 8px;
+}
+.portfolio-link-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    line-height: 24px;
+}
+
+
+/* ==================== /  Our portfolio ==================== */
+/* ===================== footer =========================  */
+.footer-page {
+background-color: #2e2f42;
+padding: 100px 0;}
+
+.logo {
+display: inline-block;
+    margin-bottom: 16px;
+}
+
+
+.footer-logo .logo-part {
+color: #f4f4fd;
+
+
+}
+.footer-text {
+    max-width: 264px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+        padding-bottom: 100px;
+        text-align: left;
+        
+}
